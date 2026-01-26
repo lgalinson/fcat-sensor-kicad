@@ -678,7 +678,7 @@
 		(sheetname "/")
 		(sheetfile "moirePCB.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files allow_soldermask_bridges)
+		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
@@ -1622,6 +1622,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C5307339"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "633aec6f-cbad-471e-91ce-4b6900ff6931")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2b677fe2-3651-4a84-a8d4-a4ae5fe63d1b")
 		(sheetname "/")
@@ -1993,6 +2006,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C5307339"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03702a2f-29a4-445b-829b-74f94981c5b5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2379,7 +2405,7 @@
 		(sheetname "/")
 		(sheetfile "moirePCB.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files allow_soldermask_bridges)
+		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
@@ -3176,7 +3202,7 @@
 		(sheetname "/")
 		(sheetfile "moirePCB.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files allow_soldermask_bridges)
+		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
@@ -5819,6 +5845,45 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GPIO9"
+		(at 163.7 52.3 90)
+		(layer "F.SilkS")
+		(uuid "44575381-2cb0-453f-b9c2-6cc142460e40")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.08)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GPIO33"
+		(at 153.5 52.3 90)
+		(layer "F.SilkS")
+		(uuid "63ec6def-8db7-4511-b21f-b608a4b19fc3")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.08)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GPIO10"
+		(at 166.25 52.25 90)
+		(layer "F.SilkS")
+		(uuid "641ef7f8-c13e-46b3-a5be-9ab5609e450d")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.08)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "GPIO16\n"
 		(at 148.45 52.3 90)
 		(layer "F.SilkS")
@@ -5845,10 +5910,49 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "SWDIO\n"
+		(at 156.15 52.3 90)
+		(layer "F.SilkS")
+		(uuid "81d76581-e5b2-40c6-bfdc-370f2ea7dbdc")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.08)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "GPIO13"
 		(at 145.9 52.3 90)
 		(layer "F.SilkS")
 		(uuid "9259f8f2-ac20-4293-ba56-34a676530801")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.08)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SWO"
+		(at 161.15 52.3 90)
+		(layer "F.SilkS")
+		(uuid "9f7b140a-da14-4c3e-8b35-798c37f71f07")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.08)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RESET\n"
+		(at 151.15 52.3 90)
+		(layer "F.SilkS")
+		(uuid "a3278823-503e-4c3a-b344-f5b043cfc625")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -5871,7 +5975,20 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Moiré Daughter Board\nRev. 1.0.0\nDesigned in New Orleans, LA"
+	(gr_text "SWCLK\n"
+		(at 158.6 52.25 90)
+		(layer "F.SilkS")
+		(uuid "dd7e59af-bc72-4bf0-bda1-509605b6d7c5")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.08)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Moiré Daughter Board\nVersion 1.0.0\nDesigned in New Orleans, LA"
 		(at 150.75 44.8 0)
 		(layer "F.SilkS")
 		(uuid "f3eacbf9-b8fb-4ad1-8b7c-f97303cffc8a")
